@@ -1,0 +1,5 @@
+On recover password page, we see a strange submit button alone. 
+If we press it we get "sorry wrong answer" so we try to submit something else. 
+If we inspect, we can see that we can change the mail on "value" attribut of input named "mail".
+
+Flag appears.
