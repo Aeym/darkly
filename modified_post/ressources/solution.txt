@@ -1,0 +1,6 @@
+1) Go to ?page=survey#.
+2) Run Http Header Live.
+3) Select a grade value to send a POST request.
+4) The sent request will appear in Http Header Live.
+5) Edit the request and enter a grade value above 10.
+6) Send the new request.

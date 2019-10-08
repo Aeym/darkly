@@ -1,0 +1,4 @@
+1) Go to sign in, then to I forgot my password.
+2) Inspect the Submit form.
+3) Remove the value (email) in the input tags.
+4) Submit.
