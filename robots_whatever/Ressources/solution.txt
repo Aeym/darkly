@@ -6,7 +6,7 @@ root:8621ffdbc5698829397d97767ac13db3
 
 md5 ( 8621ffdbc5698829397d97767ac13db3 ) = dragon
 
-We try to go to http://192.168.56.101/admin/ and use root as login and dragon as password. 
+We try to go to http://local_IP/admin/ and use root as login and dragon as password. 
 
 
 Don't trust the robots.txt convention !
