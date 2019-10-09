@@ -1,7 +1,7 @@
 <?php
 
 $GLOBALS["str"] = "";
-explore_folders("http://192.168.56.101/.hidden/");
+explore_folders("LOCAL_IP/.hidden/");
 
 $arrURLs = array();
 
