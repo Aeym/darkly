@@ -7,3 +7,7 @@ root:8621ffdbc5698829397d97767ac13db3
 md5 ( 8621ffdbc5698829397d97767ac13db3 ) = dragon
 
 We try to go to http://192.168.56.101/admin/ and use root as login and dragon as password. 
+
+
+Don't trust the robots.txt convention !
+Protect access to sensitives folders with .htaccess for example.

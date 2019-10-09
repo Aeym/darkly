@@ -10,3 +10,6 @@ We made a script in php where we curl each page, get all the folder names and RE
 You see the result of this storing process in result.txt.
 
 We searched for numbers in this and found the flag.
+
+Don't trust the robots.txt convention !
+Protect access to sensitives folders with .htaccess for example.

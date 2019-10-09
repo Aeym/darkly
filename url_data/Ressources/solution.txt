@@ -14,5 +14,7 @@ and we get the flag.
 
 From wikipedia : 
 
-The data URI can be utilized to construct attack pages that attempt to obtain usernames and passwords from unsuspecting web users.
-It can also be used to get around cross-site scripting (XSS) restrictions, embedding the attack payload fully inside the address bar.
+"The data URI can be utilized to construct attack pages that attempt to obtain usernames and passwords from unsuspecting web users.
+It can also be used to get around cross-site scripting (XSS) restrictions, embedding the attack payload fully inside the address bar."
+
+To prevent you can escape data and use a proper input validation before actually use that data.

