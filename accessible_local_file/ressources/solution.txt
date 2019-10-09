@@ -1,7 +1,7 @@
 1) Try to access root folder of the website.
 2) Notice an alert while trying to access content
 3) Linux servers contain a file storing the password: /etc/passwd
-4) http://172.16.129.138/?page=../../../../../../../etc/passwd
+4) LOCAL_IP/?page=../../../../../../../etc/passwd
 
 ----
 
