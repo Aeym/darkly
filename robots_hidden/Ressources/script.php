@@ -1,7 +1,7 @@
 <?php
 
 $GLOBALS["str"] = "";
-get_URLs("http://192.168.56.101/.hidden/");
+explore_folders("http://192.168.56.101/.hidden/");
 
 $arrURLs = array();
 
@@ -15,7 +15,7 @@ foreach ($arr as $value) {
     }
 }
 
-function get_URLs($url) {
+function explore_folders($url) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -30,7 +30,7 @@ function get_URLs($url) {
         if ($tmp == "README") {
             $GLOBALS["str"] .= $ret;
         } else {
-            get_URLs($urlbis);
+            explore_folders($urlbis);
         }
     }
     curl_close($ch);
