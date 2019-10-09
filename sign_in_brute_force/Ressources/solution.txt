@@ -1,6 +1,6 @@
 On sign in page we see the "sorry wrong answer" so we investigate.
 
-We see the "username" and "password" in the URL of the page in GET method.
+We see the "username" and "password" in the URL of the page in GET method. We found no information to connect.
 So we tried to bruteforce the password with the List of the most common password finded here : 
 https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
 
