@@ -7,5 +7,5 @@
 
 How to avoid ?
 
-1) Use of an .htaccess to protect folder containing files (can still be flawed)
+1) Use of an .htaccess to protect folder containing files.
 2) Or make sure nothing critical is accessible in the public directories of the website.

